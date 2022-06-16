@@ -1,6 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    font-family: 'News Cycle', sans-serif;
 }
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+}
+/* styling for header */
+header{
+    border-bottom: 1px solid rgb(231, 228, 228);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav1{
+    display: flex;
+    align-items: center;
+}
+.nav1 img, a{
+    margin-right: 1rem;
+}
+#logo{
+    margin-left: 1rem;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav2 i, a, button{
+   margin-left: 1rem;
+}
+a{
+    text-decoration: none;
+    color:  #016FD0;
+}
+.fa-solid{
+    color:  #016FD0;
+    margin-right: 1.5rem;
+}
+#login{
+    color: white;
+    border: none;
+    padding: .4rem 1.5rem;
+    background-color: #016FD0;
+    border-radius: 5%;
+}
+
+/* styling for main */

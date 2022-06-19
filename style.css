@@ -39,6 +39,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: var(--amex-blue)
 }
 .nav-links{
     display: inline-flex;
